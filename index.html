@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Razor Pay</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/feather-icons"></script>
 </head>
 <body>
     <nav class="bg-deepBlue">
@@ -44,7 +45,7 @@
                 <a href="#">Pricing</a>
                 <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200"></div>
             </li>
-        </ul>
+        </ul> 
             
           <div class="flex space-x-8">
 
@@ -93,7 +94,7 @@ Sign up now
 </div>
 
  <!-- shape part -->
- <div class="absolute  left-0 right-0 w-[103%] ">
+ <div class="absolute  left-0 right-0 w-[100%] ">
     <img src="./Images/hero-shape.svg" alt="" class="w-full object-fill" >
  </div>
 
@@ -102,42 +103,80 @@ Sign up now
 
 <!-- feature section -->
 
-<section>
-    <img src="./Images/feature-section1-dottedrows.png" alt="" loading="lazy" width="233" height="167">
-    <img src="./Images/feature-section1-dottedrows.png" alt="" loading="lazy" width="233" height="167">
+<section class="relative mt-[190px] overflow-hidden">
+    <img src="./Images/feature-section1-dottedrows.png" alt="" loading="lazy" width="233" height="167" class="absolute -top-[8rem] -left-[10rem] inline-block">
+    <img src="./Images/feature-section1-dottedrows.png" alt="" loading="lazy" width="233" height="167" class="absolute -top[3rem] -right-[0rem] inline-block rotate-180">
 
-    <div>
+    <div class="relative w-11/12 max-w-[1080px] mx-auto pt-4">
         <!-- heading -->
-        <h2>Accept Payments with Razorpay Payment Suite</h2>
-        <div></div>
+        <h2 class="font-mullish text-center text-2xl font-extrabold leading-[1.2]">Accept Payments with Razorpay Payment Suite</h2>
+        <div class="w-6 h-1 bg-greenLight mx-auto mt-4 mb-6"></div>
         <!-- content box -->
 
-        <div>
+        <div class="w-full min-h-[520px] bg-white flex rounded-md relative p-10 py-12 border ">
             <!-- left section -->
-           <div>
-            <h3>
+           <div class="flex flex-col  justify-between  w-full">
+            <h3 class="font-mullish text-[28px] leading-10 font-bold max-w-[500px]">
                 Supercharge your business with all-powerful <span class="text-lightBlue">Payment Gateway</span>
             </h3>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+            <ul class="space-y-2">
+                <li class="font-mullish flex items-center space-x-2 ">
+                    <i data-feather="check" class="text-greenLight"></i>
+                    <span>
+                        100+ payment methods
+                    </span>
+                </li>
+                <li class="font-mullish flex items-center space-x-2 ">
+                    <i data-feather="check" class="text-greenLight"></i>
+                    <span>
+                        Industry Leading Success Rate
+                    </span>
+                </li>
+                <li class="font-mullish flex items-center space-x-2 ">
+                    <i data-feather="check" class="text-greenLight"></i>
+                    <span>
+                        Superior Checkout Experience
+                    </span>
+                </li>
+                <li class="font-mullish flex items-center space-x-2 ">
+                    <i data-feather="check" class="text-greenLight"></i>
+                    <span>
+                        Easy to Integrate 
+                    </span>
+                </li>
+                <li class="font-mullish flex items-center space-x-2 ">
+                    <i data-feather="check" class="text-greenLight"></i>
+                    <span>
+                        Instant Settlements from day 1 
+                    </span>
+                </li>
+                <li class="font-mullish flex items-center space-x-2 " >
+                    <i data-feather="check" class="text-greenLight"></i>
+                    <span>
+                        In-depth Reporting and Insights
+                    </span>
+                </li>
             </ul>
             <!-- for button and hyperlink  -->
-            <div>
-                <button></button>
+            <div class="flex flex-row justify-between space-x-4">
+                <button class=" flex  flex-row justify-evenly w-fit py-3 px-5 font-mullish text-white font-bold bg-lightBlue rounded-md hover:bg-lightBlue500 transition-all duration-200">sign-up Now 
+                
+                </button>
                 <!-- hyperlink -->
-                <div>
-                    <a href=""></a>
-                    <i></i>
+                <div class="flex items-center cursor-pointer group:">
+                    <a href="" class="font-mullish font-bold text-lightBlue500 group-hover:text-grayBlue transition-all duration-200">Know More</a>
+                    <i data-feather="chevron-right" class="w-5 h-5 text-lightBlue500 group-hover:text-grayBlue transition-all duration-200"></i>
                 </div>
             </div>
            </div>
+           <img src="./Images/payment-suite.png" alt="" 
+           class="max-w-[600px] absolute right-0 bottom-0">
         </div>
     </div>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+        feather.replace();
+    </script>
 </section>
     
 </body>
