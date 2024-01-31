@@ -42,31 +42,31 @@
             height="35px" >
         </a>
         <ul class="flex space-x-8">
-            <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group">
+            <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group  hidden lg:block">
                 <a href="#">Payments</a>
                 <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200"></div>
             </li>
-            <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group">
+            <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group  hidden lg:block">
                 <a href="#">Banking</a>
                 <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200"></div>
             </li>
-            <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group">
+            <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group  hidden lg:block">
                 <a href="#">Corporate Card</a>
                 
             </li>
-            <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group">
+            <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group  hidden lg:block">
                 <a href="#">Payroll</a>
                 
             </li>
-            <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group">
+            <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group  hidden lg:block">
                 <a href="#">Resources</a>
                 <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200"></div>
             </li>
-            <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group">
+            <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group  hidden lg:block">
                 <a href="#">Support</a>
                 <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200"></div>
             </li>
-            <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group">
+            <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group  hidden lg:block">
                 <a href="#">Pricing</a>
                 <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200"></div>
             </li>
@@ -76,10 +76,10 @@
 
             <img src="./Images/india-flag.svg" alt="Avatar"
             width="28px"
-            height="20px" >
+            height="20px" class=" hidden lg:block">
 
             <button class="py-3 px-5 font-mullish text-white border-lightBlue border font-bold rounded ">Log in</button>
-            <button class="py-3 px-5 font-mullish font-bold rounded-sm text-sm  bg-white text-lightBlue500 border transition-all duration-200 hover:bg-lightBlue500 hover:text-white">Sign In</button>
+            <button class="py-3 px-5 font-mullish font-bold rounded-sm text-sm  bg-white text-lightBlue500 border transition-all duration-200 hover:bg-lightBlue500 hover:text-white">Sign up</button>
           </div>  
 
         </div>
@@ -92,7 +92,7 @@
    <section
    class="relative bg-deepBlue ">
 
-   <div class="w-10/12 max-w-[1080px] flex flex-row justify-between items-center mx-auto">
+   <div class="w-10/12 max-w-[1080px] flex flex-col sm:flex-col lg:flex-row justify-between items-center mx-auto">
  <!-- left part of hero -->
  <div class="space-y-8">
     <h1 class="text-white font-mullish font-bold text-4xl leading-[1.2]" >
@@ -134,7 +134,8 @@ Sign up now
 
     <div class="relative w-11/12 max-w-[1080px] mx-auto pt-4">
         <!-- heading -->
-        <h2 class="font-mullish text-center text-2xl font-extrabold leading-[1.2]">Accept Payments with Razorpay Payment Suite</h2>
+        <h2 class="font-mullish text-center text-2xl font-extrabold leading-[1.2] hidden md:block">Accept Payments with Razorpay Payment Suite</h2>
+        <h2 class="font-mullish text-center text-5xl font-extrabold leading-[1.2]  md:hidden">Explore Razorpay Payment Suite</h2>
         <div class="w-6 h-1 bg-greenLight mx-auto mt-4 mb-6"></div>
         <!-- content box -->
 
@@ -193,7 +194,7 @@ Sign up now
             </div>
            </div>
            <img src="./Images/payment-suite.png" alt="" 
-           class="max-w-[600px] absolute right-0 bottom-0">
+           class="max-w-[600px] absolute right-0 bottom-0 hidden md:max-w-[400px] lg:max-w-[600px] md:block lg:block">
         </div>
         <div class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-10">
             <!--Box1-->
@@ -1869,7 +1870,7 @@ Sign up now
              <br />Karnataka, India <br />CIN: U72200KA2013PTC097389
            </p>
            <div class="font-mullish mt-6">
-             <p class="text-sm">© Razorpay 2022</p>
+             <p class="text-sm">© Razorpay 2024</p>
              <p class="text-sm">All Rights Reserved</p>
            </div>
          </div>
